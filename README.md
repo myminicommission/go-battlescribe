@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"strings"
 
-	battlescribe "github.com/myminicommission/go-battlescribe"
+	"github.com/myminicommission/go-battlescribe"
 )
 
 const (
