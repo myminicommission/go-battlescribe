@@ -8,6 +8,10 @@ A Go module for interfacing with various aspects of Battlescribe data.
 
 ## Usage
 
+### Rosters
+
+#### Read `.rosz` File
+
 ```golang
 package main
 
