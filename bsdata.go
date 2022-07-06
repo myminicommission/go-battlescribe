@@ -1046,8 +1046,8 @@ func GetBSData(repo, tag string) ([]*Catalogue, error) {
 }
 
 func cleanUp(repo string) error {
-	if _, err := os.Stat(directory + "/" + repo); !os.IsNotExist(err) {
-		return os.RemoveAll(directory + "/" + repo)
+	if _, err := os.Stat(directory + "/"); !os.IsNotExist(err) {
+		return os.RemoveAll(directory + "/")
 	}
 
 	return nil
